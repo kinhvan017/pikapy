@@ -11,7 +11,7 @@ class PikaClient(object):
 
     # Valid paste_expire_after values
     # (Never, 1 minute, 5 minutes, 10 minutes, 1 hour, 1 day)
-    paste_expire_date = ('After reading',  # Delete paste after reading
+    paste_expire_date = ('0',  # Delete paste after reading
                          '-1',  # No expire
                          '1m', '5m', '10m', '1h', '1d')
 
