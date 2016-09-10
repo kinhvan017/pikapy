@@ -1,4 +1,4 @@
-# pikabpy
+# pikapy
 python client for pikab.in
 
 
@@ -16,7 +16,7 @@ Usage Examples
 
 ```
 >>> from pikapy import PikaClient
->>> x = PikabClient('https://pikab.in/')
+>>> x = PikaClient('https://pikab.in/')
 >>> url = x.paste('String ABC' ,
 ...               paste_title="demo paste",
 ...               paste_expire_after = '10m',
